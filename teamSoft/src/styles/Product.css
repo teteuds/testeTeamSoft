@@ -1,0 +1,244 @@
+.background {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: Roboto;
+}
+
+.p-produto{
+    margin-left: 250px;
+}
+
+.p-produto__img{
+    width: 597px;
+    height: 388px;
+
+    position: static;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 60px;   
+}
+
+.p-produto__description{
+    position: static;
+    width: 528.56px;
+    height: 91.59px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    color: #4E4E4E;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.p-produto__description--two{
+    position: static;
+    width: 597px;
+    height: 65.17px;
+    left: 0px;
+    top: 524.41px;
+
+    margin-bottom: 0;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120%;
+
+    color: #4E4E4E;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.p-produto__precos{
+    width: 116px;
+    height: 38px;
+
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 32px;
+    line-height: 120%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.p-produto__value{
+    position: static;
+    left: 0px;
+    top: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 120%;
+
+    display: flex;
+    align-items: center;
+
+    color: #DC6E05;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.p-produto__value--two{
+    position: static;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 120%;
+
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+
+    color: #4E4E4E;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 10px;
+}
+
+@media (max-width: 700px){
+    .background{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .p-produto{
+        width: 343px;
+        height: 130.96px !important;
+        left: calc(50% - 343px/2);
+        top: 0px;
+
+        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.15));
+        border-radius: 10px;
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 24px 0px;
+
+    }
+
+    .p-produto__img{
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 250px;
+        width: 343px;
+        left: 0px;
+        top: 0px;
+        border-radius: 10px;
+    }
+
+    .p-produto__description{
+        position: static;
+        width: 343px;
+        height: 38px;
+        left: 0px;
+        top: 0px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 16px;
+        /* or 89% */
+
+        display: flex;
+        align-items: center;
+
+        /* Gray darker */
+
+        color: #4E4E4E;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 16px 0px;       
+    }
+
+    .p-produto__description--two{
+        position: static;
+        width: 343px;
+        height: 78px;
+        left: 0px;
+        top: 54px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        /* or 125% */
+
+
+        /* Gray darker */
+
+        color: #4E4E4E;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 16px 0px;
+    }
+
+    .p-produto__value,
+    .p-produto__value--two{
+        position: static;
+        width: 64px;
+        height: 11px;
+        left: 0px;
+        top: 0px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        /* or 114% */
+        display: flex;
+        align-items: center;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+}
+

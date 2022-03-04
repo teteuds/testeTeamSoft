@@ -1,0 +1,125 @@
+.c-header {
+    width: 100vw;
+    height: 5em;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 0 8px 0;
+    background-color: #f4f4f4;
+    display: flex;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    flex: 0 1 auto;
+    order: 0;
+    position: relative;
+}
+
+.c-header__logoArea {
+    width: 22.5em;
+    height: 4.8em;
+    flex: none;
+    order: 0;
+    margin: 0 40px;
+    display: flex;
+    align-items: center;
+}
+  
+.c-header__logo--One,
+.c-header__logo--Two {
+    position: static;
+}
+
+
+.c-header__address--arrow{
+  color: #D80000;
+  margin-left: -20px;
+}
+
+.c-header__address--input{
+  font-family: Roboto;
+  font-weight:bold;
+  color: #656363;
+
+  width: 230px;
+  height: 48px;
+  border-radius: 4px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  border: none;
+
+  -webkit-appearance: none;
+  padding: 25px 0 0 10px;
+  background: #FFFFFF url('../img/arrowDown.png') 95.5% 50% no-repeat;
+}
+
+.c-header__address--text{
+  position: absolute;
+  margin: -2px 3px;
+
+  padding: 0;
+  color: #ED3237;
+
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+
+}
+
+.c-header__search--input{
+  width: 354px;
+  height: 48px;
+  border-radius: 4px;
+
+  background: #FFFFFF;
+
+  /* Primary/default */
+  border: 1px solid #ED3237;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.c-header__product{
+  
+/* .text.input--lg */
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 10px;
+
+/* or 71% */
+display: flex;
+align-items: center;
+letter-spacing: 0.33px;
+
+/* Gray/darker */
+color: #656363;
+}
+
+.c-header__cart{
+  margin: 0 -30px;
+}
+
+.c-header__cart,
+.c-header__account {
+  flex-grow: 0;
+  height: 3em;
+  width: 8em;
+  display: flex;
+  align-items: center;
+}
+
+.c-header__account--text,
+.c-header__cart--text{
+    margin-left: 10px;
+    color: #ED3237;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+}
+
+
+
